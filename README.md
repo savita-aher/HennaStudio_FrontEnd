@@ -5,7 +5,7 @@ Built with a clean, minimalist interface and modular architecture, the app showc
 functionality, seamless frontend-backend integration. 
 It’s built with React, Express, MongoDB, and Axios to keep everything connected and easy to use.
 
-## Back END git Repo
+## Back End git Repo
  https://github.com/savita-aher/HennaStudio_BackEnd
 
 ## ✨ Features
