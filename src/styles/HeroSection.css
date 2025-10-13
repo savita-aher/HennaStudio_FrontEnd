@@ -11,17 +11,28 @@
 }
 
 .hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: 4rem; /* Bigger */
+  font-weight: 700;
+  letter-spacing: 1px;
   color: #8b3e2f;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif; /* Fancy serif font */
+  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
+
 .hero p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 400;
+  color: #5a3a2e;
+  font-family: 'Cormorant Garamond', serif; /* Elegant serif */
+  letter-spacing: 0.5px;
   margin-bottom: 2rem;
-  color: #4b2e2e;
+  text-align: center;
+  max-width: 600px;
 }
+
 
 .cta-button {
   background-color: #8b3e2f;

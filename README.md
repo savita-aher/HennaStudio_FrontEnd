@@ -43,3 +43,36 @@ It’s built with React, Express, MongoDB, and Axios to keep everything connecte
 ## Commands Used :
 -npm create vite@latest .
 -select npx->react->javascript 
+
+<p>Total Price: ${totalPrice}</p>
+<p className="note">
+  This amount reflects the estimated cost, to be paid post-service.
+</p>
+.note {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}
+<label>
+  <input
+    type="radio"
+    name="designStyle"
+    value="custom"
+    checked={designStyle === "custom"}
+    onChange={handleDesignStyleChange}
+  />
+  Custom Design
+</label>
+{designStyle === "custom" && (
+  <div className="upload-section">
+    <label htmlFor="customDesignImage">Upload your design:</label>
+    <input
+      type="file"
+      id="customDesignImage"
+      name="customDesignImage"
+      accept="image/*"
+      onChange={handleImageUpload}
+    />
+  </div>
+)}
+

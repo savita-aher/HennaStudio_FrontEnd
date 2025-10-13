@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;/* centers the nav links */
+
+  padding: 0.5rem 1rem;
+  background-color: #fdf6f0;
+  height: 50px;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 5rem;/* consistent spacing between items */
+
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #4b2e2e;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
