@@ -52,5 +52,8 @@ It’s built with React, Express, MongoDB, and Axios to keep everything connecte
 -npm create vite@latest .
 -select npx->react->javascript 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f9cbf6303826b83e0dd0841516f93c4bd4ae50ad
 
