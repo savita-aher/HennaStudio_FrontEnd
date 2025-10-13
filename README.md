@@ -15,6 +15,14 @@ It’s built with React, Express, MongoDB, and Axios to keep everything connecte
 - Instant updates via Axios-powered API calls
 - Modular React components for form handling and display
 
+📬 Contact Page Feature
+- Provides a clean, responsive form for users to send inquiries or custom design requests.
+- Captures name, email, phone number, message, and optional custom design image (via URL or file upload).
+- Includes radio toggle to conditionally display upload options for custom designs.
+- Submits data to backend via POST request and stores it in MongoDB using a validated schema.
+- Styled with warm, minimalist branding to match HennaBloom Studio’s aesthetic.
+
+
 ## Customer View (Public)
 - Browse available henna designs
 - Place orders with selected design and contact details
@@ -44,35 +52,5 @@ It’s built with React, Express, MongoDB, and Axios to keep everything connecte
 -npm create vite@latest .
 -select npx->react->javascript 
 
-<p>Total Price: ${totalPrice}</p>
-<p className="note">
-  This amount reflects the estimated cost, to be paid post-service.
-</p>
-.note {
-  font-size: 0.9rem;
-  color: #666;
-  font-style: italic;
-}
-<label>
-  <input
-    type="radio"
-    name="designStyle"
-    value="custom"
-    checked={designStyle === "custom"}
-    onChange={handleDesignStyleChange}
-  />
-  Custom Design
-</label>
-{designStyle === "custom" && (
-  <div className="upload-section">
-    <label htmlFor="customDesignImage">Upload your design:</label>
-    <input
-      type="file"
-      id="customDesignImage"
-      name="customDesignImage"
-      accept="image/*"
-      onChange={handleImageUpload}
-    />
-  </div>
-)}
+
 
