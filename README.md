@@ -15,7 +15,7 @@ It’s built with React, Express, MongoDB, and Axios to keep everything connecte
 - Instant updates via Axios-powered API calls
 - Modular React components for form handling and display
 
-📬 Contact Page Feature
+## 📬 Contact Page Feature
 - Provides a clean, responsive form for users to send inquiries or custom design requests.
 - Captures name, email, phone number, message, and optional custom design image (via URL or file upload).
 - Includes radio toggle to conditionally display upload options for custom designs.
@@ -52,8 +52,4 @@ It’s built with React, Express, MongoDB, and Axios to keep everything connecte
 -npm create vite@latest .
 -select npx->react->javascript 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> f9cbf6303826b83e0dd0841516f93c4bd4ae50ad
 
