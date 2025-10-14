@@ -12,7 +12,6 @@ It’s built with React, Express, MongoDB, and Axios to keep everything connecte
 - Admin Dashboard 
 - Add, edit, and delete henna designs
 - Each design includes: title, style tag, price, and category
-- Instant updates via Axios-powered API calls
 - Modular React components for form handling and display
 
 ## 📬 Contact Page Feature
