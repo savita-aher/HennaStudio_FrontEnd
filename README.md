@@ -42,6 +42,7 @@ It’s built with React, Express, MongoDB, and Axios to keep everything connecte
 ## 🚀 Getting Started
 - Clone the repo
 - Run npm install in both client and server folders
+- npm install axios
 - Start backend: npm run dev
 - Start frontend: npm run dev
 - Visit http://localhost:3000 to view the app

@@ -1,10 +1,10 @@
-import { Routes, Route} from 'react-router-dom'
-import Home from './pages/Home'
+import { Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Design from './pages/Design';
-import FAQ from './pages/FAQ'
-
-import './App.css'
+import FAQ from './pages/FAQ';
+import Admin from './pages/Admin';
+import './App.css';
 
 function App() {
  return (
@@ -13,6 +13,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/Designs" element={<Design />} />
       <Route path="/faq" element={<FAQ />} />
+      <Route path ="/login" element={<Admin />} />
     </Routes>
   );
 }

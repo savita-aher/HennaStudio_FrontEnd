@@ -1,0 +1,46 @@
+.admin-section {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.admin-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #5a3e2b;
+}
+
+.admin-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.admin-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #5a3e2b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.admin-form button:hover {
+  background-color: #3d2c1e;
+}
+
+.admin-message {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #4a4a4a;
+  text-align: center;
+}
