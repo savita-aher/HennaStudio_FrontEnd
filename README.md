@@ -1,5 +1,5 @@
 ## HennaBloom Studio 
-HennaBloom Studio is a simple web app where customers can browse henna designs and place orders. 
+HennaBloom Studio is a simple web app where customers can browse henna designs and book orders. 
 The artist uses a private admin dashboard to manage designs—adding, editing, or deleting them. 
 Built with a clean, minimalist interface and modular architecture, the app showcases real-world CRUD 
 functionality, seamless frontend-backend integration. 
