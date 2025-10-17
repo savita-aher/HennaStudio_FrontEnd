@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Design from './pages/Design';
 import FAQ from './pages/FAQ';
-import Admin from './pages/Admin';
+import Admin from './pages/AdminLogin';
 import './App.css';
 
 function App() {
