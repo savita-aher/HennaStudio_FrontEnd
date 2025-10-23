@@ -13,7 +13,7 @@ const DesignSection = () => {
     const fetchDesigns = async () => {
       setLoading(true);
       try {
-        const res = await fetch(`http://localhost:3000/api/images/category/${selectedCategory}`);
+        const res = await fetch(`https://hennastudio-backend.onrender.com/api/images/category/${selectedCategory}`);
         const data = await res.json();
         setDesigns(data);
       } catch (err) {

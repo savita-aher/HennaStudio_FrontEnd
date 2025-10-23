@@ -9,7 +9,7 @@ export default function AdminAuthForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:3000/api/login', {
+      const res = await axios.post('https://hennastudio-backend.onrender.com/api/login', {
         email,
         password
       });

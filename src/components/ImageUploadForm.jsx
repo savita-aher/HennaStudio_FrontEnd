@@ -21,7 +21,7 @@ const AdminUploadForm = () => {
     formData.append("styleTag", styleTag);
 
     try {
-      const res = await fetch("http://localhost:3000/api/images/upload", {
+      const res = await fetch("https://hennastudio-backend.onrender.com/api/images/upload", {
         method: "POST",
         body: formData,
       });

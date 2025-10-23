@@ -15,7 +15,7 @@ const DesignManager = () => {
   const fetchDesigns = async () => {
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:3000/api/designs/all");
+      const res = await fetch("https://hennastudio-backend.onrender.com/api/designs/all");
       const data = await res.json();
       setDesigns(data);
     } catch (err) {
@@ -33,7 +33,7 @@ const DesignManager = () => {
 
   const handleUpdate = async () => {
     try {
-      await fetch(`http://localhost:3000/api/designs/${editingId}`, {
+      await fetch(`https://hennastudio-backend.onrender.com/api/designs/${editingId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -49,7 +49,7 @@ const DesignManager = () => {
 
   const handleDelete = async (id) => {
     try {
-      await fetch(`http://localhost:3000/api/designs/${id}`, {
+      await fetch(`https://hennastudio-backend.onrender.com/api/designs/${id}`, {
         method: "DELETE",
       });
       setMessage("Design deleted successfully!");

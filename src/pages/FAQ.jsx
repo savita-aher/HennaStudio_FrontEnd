@@ -7,7 +7,7 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/faq')
+    fetch('https://hennastudio-backend.onrender.com/api/faq')
       .then(res => res.json())
       .then(data => setFaqs(data))
       .catch(err => console.error('Failed to fetch FAQs:', err));
