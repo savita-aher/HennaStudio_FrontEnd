@@ -9,7 +9,7 @@ const Design = () => {
        <Navbar />
       <main className="design-page">
         <h2>Explore Our Henna Designs</h2>
-        <p>Browse by category and add your favorites to your booking cart.</p>
+        <p>Browse by category</p>
         <DesignSection />
       </main>
     </>

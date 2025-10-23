@@ -1,0 +1,82 @@
+/* Layout */
+.design-manager {
+  padding: 2rem;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #fffaf5;
+  color: #4b2e2e;
+}
+
+.design-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+/* Card */
+.design-card {
+  border: 1px solid #e0cfc2;
+  padding: 1rem;
+  width: 240px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+/* Image */
+.design-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+/* Text */
+.design-card p {
+  font-size: 0.8rem;
+  margin: 0.3rem 0;
+}
+
+/* Buttons */
+button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.5rem;
+  background-color: #8b3e2f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a14a3a;
+}
+
+/* Edit Form */
+.edit-form {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.edit-form label {
+  font-size: 0.8rem;
+}
+
+.edit-form input {
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Feedback Message */
+.update-message {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: #e6f4ea;
+  color: #2e7d32;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 0.9rem;
+}

@@ -1,55 +1,72 @@
-## HennaBloom Studio 
-HennaBloom Studio is a simple web app where customers can browse henna designs and place orders. 
+## 🌿 HennaBloom Studio 
+HennaBloom Studio is a simple web app where customers can browse henna designs and book orders. 
 The artist uses a private admin dashboard to manage designs—adding, editing, or deleting them. 
 Built with a clean, minimalist interface and modular architecture, the app showcases real-world CRUD 
-functionality, seamless frontend-backend integration. 
-It’s built with React, Express, MongoDB, and Axios to keep everything connected and easy to use.
+functionality, seamless frontend-backend integration. It’s built with React, Express, MongoDB, and Axios to keep everything connected and easy to use.
 
-## Back End git Repo
+## 🛠️  Back End git Repo
  https://github.com/savita-aher/HennaStudio_BackEnd
 
 ## ✨ Features
-- Admin Dashboard 
+ Customer View
+- Browse henna designs by category
+- View design details including price and style tag
+
+Contact Page
+- Responsive form for inquiries or custom design requests
+- Fields: name, email, phone, message, and optional image (URL or file)
+- Radio toggle to conditionally show upload options
+- POSTs data to backend and shows success feedback
+
+Admin Dashboard (Protected)
+- Login with email and password
 - Add, edit, and delete henna designs
-- Each design includes: title, style tag, price, and category
-- Modular React components for form handling and display
+- Update price and style tag directly from design manager
+- Upload images via Cloudinary
+- Success messages and consistent image sizing across categories
 
-## 📬 Contact Page Feature
-- Provides a clean, responsive form for users to send inquiries or custom design requests.
-- Captures name, email, phone number, message, and optional custom design image (via URL or file upload).
-- Includes radio toggle to conditionally display upload options for custom designs.
-- Submits data to backend via POST request and stores it in MongoDB using a validated schema.
-- Styled with warm, minimalist branding to match HennaBloom Studio’s aesthetic.
+FAQ Section
+- Dynamically fetches frequently asked questions from backend
+- Displays answers in a collapsible accordion layout
+- Helps users understand booking policies, design categories, and customization    options
 
 
-## Customer View (Public)
-- Browse available henna designs
-- Place orders with selected design and contact details
-- Simple, intuitive layout for mobile and desktop users
+## 🧱 Tech Stack
+- React (Vite setup)
+- Axios for API communication
+- CSS modules and dashboard.css for scoped styling
+- React Router 
 
-## Backend Functionality
-- RESTful API built with Express and MongoDB
-- CRUD routes for designs, orders, and contact messages
-- CORS-enabled for frontend communication
-- Scalable model structure using Mongoose
 
-## 🔗 Architecture Overview
-- Frontend sends requests via Axios (axios.get, axios.post)
-- Backend receives requests at /api/designs, /api/orders, etc.
-- MongoDB stores design and order data
-- State updates reflect instantly in the UI
+## 📁 Folder Structure
+![Frontend folder structure ](./assets/FrontendFolder.png)
 
 ## 🚀 Getting Started
-- Clone the repo
-- Run npm install in both client and server folders
+# 1. Clone the repo
+- git clone https://github.com/savita-aher/HennaStudio_FrontEnd
+
+# 2. Install dependencies
+- npm install
 - npm install axios
+
+# 3. Start development server
 - Start backend: npm run dev
 - Start frontend: npm run dev
-- Visit http://localhost:3000 to view the app
+
+# 4. Visit the app
+- http://localhost:5173
+
+## 👩‍💻 Author
+Savita Aher
 
 
-## Commands Used :
--npm create vite@latest .
--select npx->react->javascript 
+
+
+
+
+
+
+
+
 
 

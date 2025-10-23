@@ -37,3 +37,7 @@
   font-size: 0.95rem;
 }
 
+.faq-question:hover {
+  color: inherit;
+  background-color: inherit;
+}

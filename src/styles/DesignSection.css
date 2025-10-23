@@ -2,7 +2,6 @@
   padding: 2rem;
   max-width: 1200px;
   margin: auto;
-  
 }
 
 .design-page h2 {
@@ -38,9 +37,10 @@
 .design-card {
   border: 1px solid #ddd;
   padding: 1rem;
-  border-radius: 8px;
+  border-radius: 2px;
   text-align: center;
   background-color: #fff;
+  position: relative;
 }
 
 .design-card img {
@@ -49,25 +49,30 @@
   border-radius: 6px;
 }
 
-.booking-preview {
-  margin-top: 2rem;
-  border-top: 1px solid #ccc;
-  padding-top: 1rem;
+.design-styleTag {
+  font-size: 0.85rem; /* smaller than default */
+  font-weight: 500;
+  color: #8b5e3c;
+  margin-top: 0rem;
 }
 
-.booking-item {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
+.design-price {
+  font-size: 0.75rem; /* even smaller */
+  color: #555;
+  margin:  0;
 }
 
-.booking-item img {
-  width: 60px;
-  height: auto;
-  border-radius: 4px;
+
+/* Optional: make them appear above or below image */
+.design-card .design-price {
+  color: #8b5e3c;
 }
 
+.design-card .design-styleTag {
+  font-style: italic;
+}
+
+/* Booking button */
 .lets-book-now {
   background-color: #8b5e3c;
   color: white;
