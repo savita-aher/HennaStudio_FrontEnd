@@ -42,18 +42,18 @@ FAQ Section
 ![Frontend folder structure ](./public/FrontendFolder.png)
 
 ## 🚀 Getting Started
-# 1. Clone the repo
+1. Clone the repo
 - git clone https://github.com/savita-aher/HennaStudio_FrontEnd
 
-# 2. Install dependencies
+2. Install dependencies
 - npm install
 - npm install axios
 
-# 3. Start development server
+3. Start development server
 - Start backend: npm run dev
 - Start frontend: npm run dev
 
-# 4. Visit the app
+4. Visit the app
 - http://localhost:5173
 
 ## 👩‍💻 Author
