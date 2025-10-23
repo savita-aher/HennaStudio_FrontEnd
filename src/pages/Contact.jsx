@@ -71,7 +71,7 @@ const ContactForm = () => {
           <textarea name="message" rows="5" required onChange={handleChange} />
         </label>
 
-        <fieldset>
+        <fieldset >
           <legend>Do you have a custom design?</legend>
           <label>
             <input

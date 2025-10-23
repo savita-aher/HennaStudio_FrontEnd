@@ -11,8 +11,7 @@ const NotFound = () => {
     <div style={containerStyle}>
       <h2 style={headingStyle}>404 — Page Not Found</h2>
       <p style={paragraphStyle}>
-        The page you're looking for doesn't exist or you don't have access.
-      </p>
+        The page you're looking for doesn't exist!</p>
       <button style={buttonStyle} onClick={handleGoHome}>
         Go to Home
       </button>
