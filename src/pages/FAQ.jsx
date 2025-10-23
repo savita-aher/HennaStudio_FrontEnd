@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
-import '../styles/faqSection.css';
+import '../styles/FaqSection.css';
 
 const FAQ = () => {
   const [faqs, setFaqs] = useState([]);
