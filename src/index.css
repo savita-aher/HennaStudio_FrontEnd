@@ -2,16 +2,16 @@ html, body, #root {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow-y: scroll;       /* enables vertical scroll */
-  overflow-x: hidden;       /* disables horizontal scroll */
-  scrollbar-width: none;    /* hides scrollbar in Firefox */
+  overflow-y: scroll;      
+  overflow-x: hidden;      
+  scrollbar-width: none;    
   font-family: 'Great Vibes', cursive;
 font-size: 2rem;
 font-weight: 400;
 }
 
 body::-webkit-scrollbar {
-  display: none;            /* hides scrollbar in Chrome/Safari */
+  display: none;           
 }
 
 * {

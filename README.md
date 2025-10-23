@@ -56,6 +56,9 @@ FAQ Section
 4. Visit the app
 - http://localhost:5173
 
+## 🚀 Live Demo
+Frontend[hennabloom-frontend] : https://hennastudio-frontend.onrender.com 
+
 ## 👩‍💻 Author
 Savita Aher
 

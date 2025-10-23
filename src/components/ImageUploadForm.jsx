@@ -8,7 +8,7 @@ const AdminUploadForm = () => {
   const [category, setCategory] = useState("bridal");
   const [price, setPrice] = useState("");
   const [styleTag, setStyleTag] = useState("");
-  const [message, setMessage] = useState(""); // ✅ feedback message
+  const [message, setMessage] = useState(""); // feedback message
 
   const handleSubmit = async (e) => {
     e.preventDefault();

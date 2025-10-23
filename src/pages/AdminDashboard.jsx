@@ -6,7 +6,7 @@ import AdminUploadForm from '../components/ImageUploadForm';
 import DesignManager from '../components/DesignManager';
 import Navbar from '../components/Navbar';
 const AdminDashboard = () => {
-  const [activeTab, setActiveTab] = useState('design'); // ✅ added state
+  const [activeTab, setActiveTab] = useState('design'); // added state
 
   return (
     <>
