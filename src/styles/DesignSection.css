@@ -5,7 +5,7 @@
 }
 
 .design-page h2 {
-  color: #8b5e3c; /* warm henna tone */
+  color: #8b5e3c; 
 }
 
 .category-filter {
@@ -16,11 +16,13 @@
 }
 
 .category-filter button {
+  background-color: #f5e6d8; 
+  color: #5a3e2b;            
   padding: 0.5rem 1rem;
   border: none;
-  background-color: #eee;
   border-radius: 4px;
   cursor: pointer;
+
 }
 
 .category-filter .active {
@@ -50,40 +52,15 @@
 }
 
 .design-styleTag {
-  font-size: 0.85rem; /* smaller than default */
+  font-size: 0.85rem;
   font-weight: 500;
   color: #8b5e3c;
   margin-top: 0rem;
-}
-
-.design-price {
-  font-size: 0.75rem; /* even smaller */
-  color: #555;
-  margin:  0;
-}
-
-
-/* Optional: make them appear above or below image */
-.design-card .design-price {
-  color: #8b5e3c;
-}
-
-.design-card .design-styleTag {
   font-style: italic;
 }
 
-/* Booking button */
-.lets-book-now {
-  background-color: #8b5e3c;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 6px;
-  font-size: 1rem;
-  transition: background 0.3s ease;
-  margin-top: 1rem;
-}
-
-.lets-book-now:hover {
-  background-color: #a06c4c;
-  transform: scale(1.03);
+.design-price {
+  font-size: 0.75rem;
+  color: #8b5e3c;
+  margin: 0;
 }
