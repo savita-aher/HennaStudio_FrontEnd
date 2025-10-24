@@ -16,7 +16,7 @@ const AdminLogin = () => {
       const isLocal = window.location.hostname === 'localhost';
       const API_BASE = isLocal
         ? 'http://localhost:3000'
-        : 'https://henna-api.onrender.com';
+        : 'https://hennastudio-frontend.onrender.com';
 
       const res = await fetch(`${API_BASE}/api/admin/login`, {
         method: 'POST',
