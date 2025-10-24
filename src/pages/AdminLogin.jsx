@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../styles/AdminPage.css'; 
+import '../styles/AdminPage.css';
 
 const AdminLogin = () => {
   const [email, setEmail] = useState('');
@@ -9,29 +9,33 @@ const AdminLogin = () => {
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
-  e.preventDefault();
-  setError('');
+    e.preventDefault();
+    setError('');
 
-  try {
-    const res = await fetch('/api/admin/login', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email, password }),
-    });
+    try {
+      const isLocal = window.location.hostname === 'localhost';
+      const API_BASE = isLocal
+        ? 'http://localhost:3000'
+        : 'https://henna-api.onrender.com';
 
-    const data = await res.json();
+      const res = await fetch(`${API_BASE}/api/admin/login`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email, password }),
+      });
 
-    if (res.ok && data.token) {
-      localStorage.setItem('token', data.token); // Save JWT
-      navigate('/dashboard'); // Redirect manually
-    } else {
-      setError(data.message || 'Login failed');
+      const data = await res.json();
+
+      if (res.ok && data.token) {
+        localStorage.setItem('token', data.token);
+        navigate('/dashboard');
+      } else {
+        setError(data.message || 'Login failed');
+      }
+    } catch (err) {
+      setError('Network error');
     }
-  } catch (err) {
-    setError('Network error');
-  }
-};
-
+  };
 
   return (
     <div className="admin-page-container">
